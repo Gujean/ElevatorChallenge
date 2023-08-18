@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ElevatorChallenge.Domain\ElevatorChallenge.Domain.csproj" />
+    <ProjectReference Include="..\ElevatorChallenge.Helpers\ElevatorChallenge.Helpers.csproj" />
+    <ProjectReference Include="..\ElevatorChallenge.Infrastructure\ElevatorChallenge.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
